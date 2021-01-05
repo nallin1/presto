@@ -1,10 +1,11 @@
-@import "../../global_styles.css";
+@import "../global_styles.css";
 
 #welcome {
     color: white;
     margin: auto;
     margin-top:3em;
     width: 40%;
+    font-size: 1vw;
 }
 
 #posts {
@@ -12,6 +13,10 @@
     display: flex;
     justify-content: center;
     margin-top: 2em;
+}
+
+li {
+    font-size: 1vw;
 }
 
 .papers-link {

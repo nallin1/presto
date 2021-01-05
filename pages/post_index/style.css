@@ -1,10 +1,11 @@
-@import "../../global_styles.css";
+@import "../global_styles.css";
 
 #papers {
     color: white;
     display: flex;
     justify-content: center;
     margin-top: 2em;
+    font-size: 1vw;
 }
 
 .papers-link {
