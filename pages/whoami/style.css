@@ -1,0 +1,33 @@
+@import "../../global_styles.css";
+
+#whoami {
+    color: white;
+    width: 40%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+p {
+    margin-top: 2em;
+}
+
+li{
+    margin-left: 2em;
+}
+
+.contact-links {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-links:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 700px){
+    #whoami {
+        width:80%;
+    }
+}
