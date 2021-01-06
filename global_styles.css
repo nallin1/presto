@@ -13,6 +13,8 @@ body, html {
     color: white;
     font-weight: 1000;
     text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 2vh;
 }
 
@@ -21,7 +23,7 @@ body, html {
     justify-content: center;
     color: white;
     margin-top: 1em;
-    font-size: 0.8vw;
+    font-size: 1.2vw;
 }
 
 
@@ -46,7 +48,7 @@ hr {
     margin: auto;
     margin-top: 2em;
     width: 20%;
-    border: dotted 2px white;
+    border: dashed 1px white;
 }
 
 ::root {
@@ -62,6 +64,12 @@ hr {
     background: #40ff00;
 }
 
+@media (max-width: 100px) {
+    #sections {
+        font-size: 100px;
+    }
+}
+
 @media (max-width: 600px) {
     #sections {
         font-size: 3vw;
@@ -74,9 +82,13 @@ hr {
 }
 
 @media (max-width: 360px) {
+    #banner {
+        font-size: 2vw;
+        width: 100%;
+    }
     #sections {
-        font-size: 8vw;
-        margin-left:70%;
+        width: 100%;
         margin-top: 0.5em;
+        font-size: 4vw;
     }
 }
