@@ -60,12 +60,14 @@ li {
 @media (max-width: 360px) {
     #welcome {
         width: 90%;
-        font-size: 3vw;
+        font-size: 4vw;
         margin-top: 1em;
+        margin-bottom: 2vh;
     }
 
     li {
-        font-size: 3vw;
+        font-size: 4vw;
+        margin-left: 15vw;
     }
 
     #quote {

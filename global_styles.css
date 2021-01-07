@@ -13,8 +13,7 @@ body, html {
     color: white;
     font-weight: 1000;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    margin: auto;
     margin-top: 2vh;
 }
 
@@ -42,12 +41,14 @@ body, html {
 #copyright {
     color: white;
     text-align: center;
+    margin-bottom: 2vh;
 }
 
 hr {
     margin: auto;
     margin-top: 2em;
-    width: 20%;
+    margin-bottom: 1em;
+    width: 30%;
     border: dashed 1px white;
 }
 
@@ -83,7 +84,7 @@ hr {
 
 @media (max-width: 360px) {
     #banner {
-        font-size: 2vw;
+        font-size: 1.9vw;
         width: 100%;
     }
     #sections {

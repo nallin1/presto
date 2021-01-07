@@ -37,3 +37,13 @@ span {
         width:80%;
     }
 }
+
+@media (max-width: 360px) {
+    p {
+        font-size: 4vw;
+    }
+
+    span, li {
+        font-size: 4vw;
+    }
+}

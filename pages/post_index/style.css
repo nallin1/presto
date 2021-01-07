@@ -17,3 +17,10 @@
 .papers-link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 360px) {
+    #papers, li {
+        font-size: 3vw;
+        margin-left: 1vw;
+    }
+}
